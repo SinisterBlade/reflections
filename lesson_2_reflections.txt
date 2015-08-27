@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+	When a repository is initialized, git begins tracking all the files in the directory. A hidden folder called '.git' is created in the current folder. This '.git' folder contains metadata.
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+	The staging area allows us to select the files that are to be commited. This can be useful if we have multiple files but only some correspond to a single logical change.
