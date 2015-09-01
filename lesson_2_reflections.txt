@@ -4,3 +4,11 @@ How is the staging area different from the working directory and the repository?
 	The staging area allows us to select the files that are to be commited. This can be useful if we have multiple files but only some correspond to a single logical change.
 How can you use the staging area to make sure you have one commit per logical change?
 	We can use 'git diff' which can compare the files in the working directory and staging area. Similarly, we can use 'git diff --staged' to compare the staging area with the most recent commit.
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	We can keep our history organized whenever we want to try some experimental code that is not related to the main program. We can branch off the master and implement our code in a different branch.
+How do the diagrams help you visualize the branch structure?
+	Diagrams allow us to easily see where the master branch  split off into different branches with their own features.
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	Merging two branches together combines the changes in the two branches into a single branch. We represent the new branch as connected to the two branches in the diagram since it contains commits from both the branches.
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+	Git's automatic merging can be helpful when the commits are made to different parts of the code. Git's automatic merging can save a lot of time. However, manually merging allows us to resolve any conflicts that may arise.
